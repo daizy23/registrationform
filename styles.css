@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url('covera.jpg'); 
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+.container {
+    width: 500px;
+    padding: 20px;
+    background-color: #0f0f0fb7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
+h1{
+    text-align: center;
+    color:rgb(218, 47, 175) ;
+
+
+}
+label{
+    color: #fff;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
